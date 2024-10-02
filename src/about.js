@@ -31,10 +31,16 @@ function displayAbout() {
 
 function displayInfo() {
     const infoParagraph = document.createElement("p");
-    infoParagraph.textContent = "We are always working, so feel free to call or visit us at 55 Woodsrow Rangarok Avenue";
+    infoParagraph.textContent = "We are always working, so feel free to call or visit us. We always love to see new people aproach our store and try our food.";
     infoParagraph.style.fontSize = "20px";
 
     aboutContainer.appendChild(infoParagraph);
+
+    const addressParagraph = document.createElement("p");
+    addressParagraph.textContent = "ADDRESS: 55 Woodsrow Rangarok Avenue";
+    addressParagraph.style.fontSize = "20px";
+
+    aboutContainer.appendChild(addressParagraph);
 }
 
 export { displayAbout };
